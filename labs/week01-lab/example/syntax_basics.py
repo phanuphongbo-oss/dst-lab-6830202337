@@ -1,4 +1,5 @@
 """
+
 Week 1 Lab - Python Syntax Basics
 Learn about variables, data types, and basic Python syntax.
 """
