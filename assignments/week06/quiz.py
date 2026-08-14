@@ -37,7 +37,7 @@ def create_user_profile(username, age=18, premium=False):
         return(f"{username}  {age}  {p}")
 print(create_user_profile("Boonchoo",40))
 print(create_user_profile("Manee"))
-print(create_user_profile("Piti",23,True))
+print(create_user_profile("MArk",23,True))
 """ เขียน function ชื่อ analyze_scores ที่มีคุณสมบัติดังนี้:
 
 รับ list ของคะแนน (ตัวเลข)
