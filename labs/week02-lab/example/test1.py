@@ -9,11 +9,11 @@ print()
 
 r = float(input("inout r"))
 
-area =3.14159*r**2
+a =3.14159*r**2
 circumference = 2*3.14159*r
 
 
-print(f"area is {area} ,circumference is {circumference}")
+print(f"area is {a} ,circumference is {circumference}")
 
 
 
