@@ -3,7 +3,7 @@ class BankAccount:
     
     def __init__(self, account_holder, initial_balance=0):
         self.account_holder = account_holder
-        self.balance = initial_balance
+        self.__balance = initial_balance #n capsule ซ่อนข้อมูล
         self.transaction_history = []
     
     def deposit(self, amount):
@@ -44,3 +44,4 @@ print(account.deposit(500))
 print(account.withdraw(200))
 print("\nTransaction History:")
 print(account.get_transaction_history())
+#.oparetor

@@ -1,6 +1,6 @@
 # Parent class (Base class)
 class Animal:
-    
+        
     def __init__(self, name, species):
         self.name = name
         self.species = species
@@ -21,10 +21,12 @@ class Dog(Animal):
         super().__init__(name, "Canine")  # Call parent constructor
         self.breed = breed
     
-    # Method overriding
+    # Method overriding    
     def make_sound(self):
         print(f"{self.name} barks: Woof!")
-    
+    ## overloading ##
+    #def make_sound(Self, input):
+    ##############################
     # New method specific to Dog
     def fetch(self):
         print(f"{self.name} is fetching the ball")
